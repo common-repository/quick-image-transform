@@ -1,0 +1,83 @@
+.imgtransform {
+    width: 100%;
+}
+
+.imgtransform > .imgtransform-inputs {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 40%;
+    vertical-align: top;
+}
+
+.imgtransform > .imgtransform-inputs > input {
+    width: 100%;
+}
+
+.imgtransform > .dropzone {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 2px aliceblue dashed;
+    cursor: pointer;
+}
+
+.imgtransform > .dropzone .dz-preview  {
+    margin-top: 10px;
+}
+
+.imgtransform > .dropzone .dz-image {
+    width: 55px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.imgtransform > .dropzone .dz-details {
+    width: calc(100% - 60px);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.imgtransform > .dropzone .dz-progress {
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: block;
+}
+
+.imgtransform > .dropzone .dz-upload {
+    height: 100%;
+    display: block;
+    background: greenyellow;
+}
+
+.imgtransform > .dropzone .dz-error .dz-upload {
+    background: tomato;
+}
+
+.imgtransform > .dropzone .dz-image > img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.imgtransform > .dropzone .dz-error-message {
+    width: 100%;
+    margin-top: 5px;
+    height: 1.5em;
+    transition: all 0.25s;
+    overflow: hidden;
+}
+
+.imgtransform > .dropzone .dz-error-message.open {
+    height: 5em;
+    overflow: auto;
+}
+
+.imgtransform > .dropzone .dz-success-mark{
+    display: none;
+}
+
+.imgtransform > .dropzone .dz-error-mark{
+    display: none;
+}
